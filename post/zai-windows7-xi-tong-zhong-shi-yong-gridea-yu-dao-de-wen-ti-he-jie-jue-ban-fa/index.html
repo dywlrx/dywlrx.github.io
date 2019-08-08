@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>高水平写报告 | Gridea</title>
+<title>在windows7系统中使用Gridea遇到的问题和解决办法 | Gridea</title>
 <meta name="description" content="温故而知新" />
 <link rel="shortcut icon" href="https://dywlrx.github.io/favicon.ico?v=1565235984610">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -73,7 +73,7 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              高水平写报告
+              在windows7系统中使用Gridea遇到的问题和解决办法
             </h2>
             <div class="post-info">
               <span>
@@ -87,13 +87,41 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>何为高水平写报告？</p>
-<!---more--->
-<p>不知道啊</p>
+                <p>我是在少数派看到关于Gridea的介绍的，觉得很是方便，很有兴趣尝试。</p>
+<p>本人并不熟悉git和github的操作，我参照介绍教程一步步下载安装配置，但在使用过程中遇到了一些麻烦。</p>
+<h2 id="一直提示远程连接失败">一直提示远程连接失败</h2>
+<p>按照教程，在github.com里都设置好了，但是到了Gridea配置界面就是连接不上。</p>
+<p>从Gridea官网查询得知，可在Gridea程序的“开发者工具”中获取错误信息。我的错误信息如下：</p>
+<pre><code>message: &quot;fatal: No such remote 'origin'↵&quot;
+</code></pre>
+<p>在CSDN网站找到解决的办法：<a href="https://blog.csdn.net/god_wot/article/details/10522405">链接</a></p>
+<blockquote>
+<p>提示出错信息：fatal: remote origin already exists.<br>
+解决办法如下：<br>
+1、先输入$ git remote rm origin<br>
+2、再输入$ git remote add origin git@github.com:djqiang/gitdemo.git 就不会报错了！<br>
+3、如果输入$ git remote rm origin 还是报错的话，error: Could not remove config section 'remote.origin'. 我们需要修改gitconfig文件的内容<br>
+4、找到你的github的安装路径，我的是C:\Users\ASUS\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\etc<br>
+5、找到一个名为gitconfig的文件，打开它把里面的[remote &quot;origin&quot;]那一行删掉就好了！</p>
+</blockquote>
+<p>但是，直接按照上面的操作还是不行的，经一番研究之后，正确做法如下：</p>
+<ol>
+<li>打开Git Bash，进行初始化设置，使用<code>git config user.name &quot;name&quot;</code>和 <code>git config user.mail &quot;e-mail&quot;</code></li>
+<li>cd到..\Gridea\output，在此目录下面进行操作<code>git init</code></li>
+<li>修复错误，先输入<code>git remote rm origin</code>，再输入<code>git remote add origin git@github.com:name/name.github.io.git</code></li>
+</ol>
+<p>至此，回到Gridea程序，应该可以连接成功，同步完成后，就可以浏览你的网站了。</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5">一直提示远程连接失败</a></li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
@@ -102,9 +130,9 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://dywlrx.github.io/post/hello-gridea">
+            <a href="https://dywlrx.github.io/post/gao-shui-ping-xie-bao-gao">
               <h3 class="post-title">
-                Hello Gridea
+                高水平写报告
               </h3>
             </a>
           </div>
