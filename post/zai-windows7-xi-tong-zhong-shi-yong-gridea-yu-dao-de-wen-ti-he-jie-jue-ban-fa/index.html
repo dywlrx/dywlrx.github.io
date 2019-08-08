@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>在windows7系统中使用Gridea遇到的问题和解决办法 | Gridea</title>
 <meta name="description" content="温故而知新" />
-<link rel="shortcut icon" href="https://dywlrx.github.io/favicon.ico?v=1565238731588">
+<link rel="shortcut icon" href="https://dywlrx.github.io/favicon.ico?v=1565238888368">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://dywlrx.github.io/styles/main.css">
@@ -20,7 +20,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://dywlrx.github.io">
-  <img class="avatar" src="https://dywlrx.github.io/images/avatar.png?v=1565238731588" alt="">
+  <img class="avatar" src="https://dywlrx.github.io/images/avatar.png?v=1565238888368" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -91,7 +91,7 @@
               <div class="post-content">
                 <p>我是在少数派看到关于Gridea的介绍的，觉得很是方便，很有兴趣尝试。</p>
 <p>本人并不熟悉git和github的操作，我参照介绍教程一步步下载安装配置，但在使用过程中遇到了一些麻烦。</p>
-<h2 id="一直提示远程连接失败">一直提示远程连接失败</h2>
+<h2 id="问题一直提示远程连接失败">问题：一直提示远程连接失败</h2>
 <p>按照教程，在github.com里都设置好了，但是到了Gridea配置界面就是连接不上。</p>
 <!-- more -->
 <p>从Gridea官网查询得知，可在Gridea程序的“开发者工具”中获取错误信息。我的错误信息如下：</p>
@@ -107,6 +107,7 @@
 4、找到你的github的安装路径，我的是C:\Users\ASUS\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\etc<br>
 5、找到一个名为gitconfig的文件，打开它把里面的[remote &quot;origin&quot;]那一行删掉就好了！</p>
 </blockquote>
+<h2 id="正确操作方法">正确操作方法</h2>
 <p>但是，直接按照上面的操作还是不行的，经一番研究之后，正确做法如下：</p>
 <ol>
 <li>打开Git Bash，进行初始化设置，使用<code>git config user.name &quot;name&quot;</code>和 <code>git config user.mail &quot;e-mail&quot;</code></li>
@@ -120,7 +121,8 @@
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5">一直提示远程连接失败</a></li>
+<li><a href="#%E9%97%AE%E9%A2%98%E4%B8%80%E7%9B%B4%E6%8F%90%E7%A4%BA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%A4%B1%E8%B4%A5">问题：一直提示远程连接失败</a></li>
+<li><a href="#%E6%AD%A3%E7%A1%AE%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95">正确操作方法</a></li>
 </ul>
 </li>
 </ul>
