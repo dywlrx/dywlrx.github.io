@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dywlrx.github.io</id>
     <title>Gridea</title>
-    <updated>2019-08-20T01:20:16.869Z</updated>
+    <updated>2019-08-20T02:04:33.144Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dywlrx.github.io"/>
     <link rel="self" href="https://dywlrx.github.io/atom.xml"/>
@@ -11,15 +11,30 @@
     <icon>https://dywlrx.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
+        <title type="html"><![CDATA[🏠购房前阅读笔记]]></title>
+        <id>https://dywlrx.github.io/post/gou-fang-qian-yue-du-bi-ji</id>
+        <link href="https://dywlrx.github.io/post/gou-fang-qian-yue-du-bi-ji">
+        </link>
+        <updated>2019-08-20T01:34:12.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="2019-8-20">2019-8-20</h3>
+<p><a href="https://www.xiziquan.com/index.php?r=web/thread&amp;tid=4612776&amp;v=4.8.0&amp;share=1&amp;fromapp=1">南进北拓，东西延伸！2019年，该往惠州哪个区域买房？</a></p>
+<blockquote>
+<p>楼叔认为，短期内除了临近高铁的楼盘，其他项目的均价变化应该不会太大，预算不高的购房者可以下手。<br>
+问：那么购房当买哪个区域呢？<br>
+楼叔：有钱的就买南部新城，注重生态环境的买西部新城，预算不高但希望距离CBD近的买东部新城，首付不高想要未来潜力较大片区的买北站新城。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[两项作业]]></title>
         <id>https://dywlrx.github.io/post/liang-xiang-zuo-ye</id>
         <link href="https://dywlrx.github.io/post/liang-xiang-zuo-ye">
         </link>
         <updated>2019-08-20T01:08:52.000Z</updated>
         <content type="html"><![CDATA[<p>近期，2019年下半年，完成以下两项作业：</p>
-<ul>
-<li>了解惠州房地产资讯</li>
-<li>了解亲子关系的培养</li>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9180704"><label class="task-list-item-label" for="task-item-9180704"> 了解惠州房地产资讯</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8355224"><label class="task-list-item-label" for="task-item-8355224"> 了解亲子关系的培养</label></li>
 </ul>
 ]]></content>
     </entry>
