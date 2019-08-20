@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dywlrx.github.io</id>
     <title>Gridea</title>
-    <updated>2019-08-08T04:34:50.250Z</updated>
+    <updated>2019-08-20T01:13:19.681Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dywlrx.github.io"/>
     <link rel="self" href="https://dywlrx.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://dywlrx.github.io/images/avatar.png</logo>
     <icon>https://dywlrx.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[两项作业]]></title>
+        <id>https://dywlrx.github.io/post/liang-xiang-zuo-ye</id>
+        <link href="https://dywlrx.github.io/post/liang-xiang-zuo-ye">
+        </link>
+        <updated>2019-08-20T01:08:52.000Z</updated>
+        <content type="html"><![CDATA[<p>近期，2019年下半年，完成以下两项作业：</p>
+<ul>
+<li>了解惠州房地产咨询</li>
+<li>了解亲子关系的培养</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在windows7系统中使用Gridea遇到的问题和解决办法]]></title>
         <id>https://dywlrx.github.io/post/zai-windows7-xi-tong-zhong-shi-yong-gridea-yu-dao-de-wen-ti-he-jie-jue-ban-fa</id>
